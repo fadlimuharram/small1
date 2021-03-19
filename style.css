@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+  width: 92%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 39px;
+
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-wrapper{
+  display: flex;
+}
+.form-wrapper .input-wrapper{
+  border-bottom: 0.5px solid #C4C4C4;
+}
+.form-wrapper .input-wrapper input{
+  border:none;
+  padding-bottom: 13px;
+}
+
+.form-wrapper .input-wrapper input:focus{
+  outline: none;
+}
+.form-wrapper .input-wrapper input::placeholder{
+  text-align: right;
+}
+.form-wrapper .input-wrapper button{
+  background-color: transparent;
+  border: none;
+}
+.form-wrapper .input-wrapper button:focus{
+  outline: none;
+}
+
+.btn-cart-wrapper{
+  margin-left: 100px;
+}
+
+.btn-cart-wrapper button{
+  background-color: transparent;
+  border: none;
+}
+
+.content{
+  display: flex;
+  margin-top: 42px;
+  align-items: flex-end;
+}
+
+.left-content{
+  width: 20%;
+}
+
+.left-content ul{
+  border-left: 1px solid #E7F0F2;
+  padding-left: 15px;
+}
+
+.left-content ul li:not(:first-child){
+  padding-top: 21px;
+}
+
+.center-content{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-content{
+  width: 20%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-content ul{
+  border-right: 1px solid #E7F0F2;
+  padding-right: 22px;
+}
+
+.right-content ul li:not(:first-child){
+  margin-top: 21px;
+}
+
+.item{
+  width: 20%;
+  background: rgba(231, 240, 242, 0.3);
+  backdrop-filter: blur(6px);
+  padding: 70px 21px 20px 15px;
+  margin: 31px 40px;
+}
+
+.pagination-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+.pagination-wrapper ul{
+  display: flex;
+  border-top: 0.5px solid #E7F0F2;
+  padding-top: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pagination-wrapper ul li:not(:first-child){
+  margin-left: 10px;
+}
